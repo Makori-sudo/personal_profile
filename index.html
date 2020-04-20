@@ -15,6 +15,20 @@
             }
             nav{
                 float: right;
+                font-size: 20px;
+                
+            }
+            #about{
+            margin-left: 15px;
+            text-decoration: none;
+            }
+            #service{
+                margin-left: 15px;
+                text-decoration: none;
+            }
+            #contact{
+            margin-left: 15px;
+            text-decoration: none;
             }
             .image{
                 margin-left: 550px;
@@ -39,7 +53,7 @@
                 width: 350px;
                 height: 30px;
                 border-radius: 8px;
-                margin-left: 10px;
+                padding-left: 5px;
             }
             .para1{
                 margin-left: -250px;
@@ -50,10 +64,14 @@
             .para3{
                 margin-left: -250px;
             }
+            .para4{
+                margin-left: -270px;
+            }
             textarea{
                 width: 350px;
                 height: 80px;
                 border-radius: 8px;
+                padding-left: 5px;
             }
             button{
                 width: 150px;
@@ -73,9 +91,9 @@
     </head>
     <body>
         <nav>
-            <a  href="about.html">About Us</a>
-            <a  href="services.html">Services</a>
-            <a  href="contact.html">Contact</a>
+            <a  id="about" href="about.html">About Us</a>
+            <a  id="service" href="services.html">Services</a>
+            <a  id="contact" href="contact.html">Contact</a>
         </nav>
         <header>
                 <div class="image">
@@ -122,8 +140,8 @@
                     <p class="para3"><label for="password">Password</label></p>
                         <input type="password" placeholder="Enter Your Password" required/>
 
-                    <p>In less than 100 words tell us about yourself:</p>
-                        <textarea required></textarea>
+                    <p class="para4">Message</p>
+                        <textarea placeholder= "Enter Your Message"required></textarea>
                     
 
                     <p><button name="submit"><b>Submit</b></button></p>
