@@ -1,159 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Profile Page</title>
-        <meta name="viewport", content="width=device-width, initial-scale=1">
-         <!--Normalize.CSS-->
-         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        
-        <style>
-            body{
-                margin: 20px;
-                background-color: deepskyblue;
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            }
-            nav{
-                float: right;
-                font-size: 20px;
-                
-            }
-            #about{
-            margin-left: 15px;
-            text-decoration: none;
-            }
-            #service{
-                margin-left: 15px;
-                text-decoration: none;
-            }
-            #contact{
-            margin-left: 15px;
-            text-decoration: none;
-            }
-            .image{
-                margin-left: 550px;
-            }
-            h1{
-                text-align: center;
 
-            }
-            p{
-                font-size: 18px;
-                
-            }
-            .form{
-                margin-left: 320px;
-                margin-right: 320px;
-                margin-top: 50px;
-                background-color: lavender;
-                text-align: center;
-                border-radius: 15px;
-            }
-            input{
-                width: 350px;
-                height: 30px;
-                border-radius: 8px;
-                padding-left: 5px;
-            }
-            .para1{
-                margin-left: -250px;
-            }
-            .para2{
-                margin-left: -220px;
-            }
-            .para3{
-                margin-left: -250px;
-            }
-            .para4{
-                margin-left: -270px;
-            }
-            textarea{
-                width: 350px;
-                height: 80px;
-                border-radius: 8px;
-                padding-left: 5px;
-            }
-            button{
-                width: 150px;
-                height: 40px;
-                font-size: 20px;
-                background-color: lightslategray;
-                border-radius: 8px;
-                cursor: pointer;
-            }
-            .bottom{
-                padding-top: 20px;
-                text-align: center;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 20px;
-            }
-        </style>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/am-large-logo.png" alt="" width="100">
         <nav>
-            <a  id="about" href="about.html">About Us</a>
-            <a  id="service" href="services.html">Services</a>
-            <a  id="contact" href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
         </nav>
-        <header>
-                <div class="image">
-                    <img src="images/20180207_120446.jpg"width="200px" height="170px">
-                </div>
-                <div>
-                    <h1>Front End Developer, Intern At <br/>StartNG</h>
-                </div>
-        </header>
-        <main>
-            <div class="personal">
-                <h2><u>Personal Details</u></h2>
-                <p><b>Name: </b>Augustus Makori Manyange</p>
-                <p><b>Country: </b>Kenya</p>
-                <p><b>State of Origin/City: </b>Nairobi</p>
-                <p><b>Home Town:</b> Gachie</p>
-                <p><b>Occupation: </b>Network Engineer</p>
-                <p><b>Date of Birth:</b> 1989</p>
-                <p><b>Slack ID:</b> Makori - UV499QRMJ</p>
-                <p><b>Address: </b>1026 Village Market, Nairobi, 00621 (KE)</p><br/>
-                <aside>
-                    <h2><u>Summary</u></h2>
-                        <p>
-                            One year of experience in Network Engineering, and in Cloud Computing.
-                            Currently studying for Web Development with StartNG. Majoring in Front End, 
-                            deep diving into HTML, CSS, and JavaScript.
-                            I have Great interest in Machine Learning, and I enjoy playing soccer and Singing.
-                        </p>
+    </header>
 
-                </aside>
-            </div>
-        </main>
+    <main>
 
-        <footer>
-            <div class="form"><br/><br/>
-                <h2>Reach Out To Us</h2>
-                <form>
-                    <p class="para1"><label for="name">Full Name</label></p>
-                        <input type="text" placeholder="Enter Your Full Name" required/>
-                    
-                    <p class="para2"><label for="email">Email Address</label></p>
-                        <input type="email" placeholder="Enter Your Email Address" required/>
-                    
-                    <p class="para3"><label for="password">Password</label></p>
-                        <input type="password" placeholder="Enter Your Password" required/>
+        <img src="images/IMG_20180615_110455.jpg" alt="Avatar" width="500px" height="600px">
 
-                    <p class="para4">Message</p>
-                        <textarea placeholder= "Enter Your Message"required></textarea>
-                    
+        <aside>
+            <h1>Front End Developer, StartNG Intern</h1>
+            <h2>Personal Details</h2>
+            <p><b>Name: </b>Augustus Makori Manyange</p>
+            <p><b>Country: </b>Kenya</p>
+            <p><b>State of Origin/City: </b>Nairobi</p>
+            <p><b>Home Town:</b> Gachie</p>
+            <p><b>Occupation: </b>Network Engineer</p>
+            <p><b>Date of Birth:</b> 1989</p>
+            <p><b>Slack ID:</b> Makori - UV499QRMJ</p>
+            <p><b>Address: </b>1026 Village Market, Nairobi, 00621 (KE)</p><br />
+            <h2>Summary</h2>
+            <p>
+                One year of experience in Network Engineering, and in Cloud Computing.
+                Currently studying for Web Development with StartNG. Majoring in Front End,
+                deep diving into HTML, CSS, and JavaScript.
+                I have Great interest in Machine Learning, and I enjoy playing soccer and Singing.
+            </p>
+        </aside>
+    </main>
+    <br>
 
-                    <p><button name="submit"><b>Submit</b></button></p>
-                    
-                </form><br/><br/>
-            </div>
-            <div class="bottom">
-                <hr>
-                <Ul>&copy;2020 Makori | All rights reserved</Ul>
+    <footer>
+        <div class="form-section">
+            <h2>Message</h2>
+            <form>
+                <label for="name">Full Name</label><br>
+                <input type="text" placeholder="Enter Your Full Name" required />
+                <br><br>
+                <label for="email">Email Address</label><br>
+                <input type="email" placeholder="Enter Your Email Address" required />
+                <br><br>
+                <label for="password">Password</label><br>
+                <input type="password" placeholder="Enter Your Password" required />
+                <br><br>
+                Message <br>
+                <textarea placeholder="Your Message" rows="8" cols="50" required></textarea><br>
 
-            </div>
+                <button name="submit"><b>Submit</b></button>
+            </form>
+        </div>
+        <br><br><br><br>
+        <hr>
+        <div class="bottom">
+            <p>Makori, 1026 Vallge Market, 00621(KE) | Copyright &copy;2020</p>
+        </div>
+    </footer>
+</body>
 
-        </footer>
-    </body>
 </html>
